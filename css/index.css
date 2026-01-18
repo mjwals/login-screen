@@ -1,0 +1,672 @@
+/*********************************GLOBAL RESETS********************************/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*********************************PADDINGS*************************************/
+
+/*PADDING SMALL*/
+
+.padding_small_all {
+  padding: 10px !important;
+}
+
+.padding_small_top {
+  padding-top: 10px !important;
+}
+
+.padding_small_right {
+  padding-right: 10px !important;
+}
+
+.padding_small_bottom {
+  padding-bottom: 10px !important;
+}
+
+.padding_small_left {
+  padding-left: 10px !important;
+}
+
+.padding_small_left_right {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.padding_small_top_bottom {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/*PADDING MEDIUM*/
+
+.padding_med_all {
+  padding: 15px !important;
+}
+
+.padding_med_top {
+  padding-top: 15px !important;
+}
+
+.padding_med_right {
+  padding-right: 15px !important;
+}
+
+.padding_med_bottom {
+  padding-bottom: 15px !important;
+}
+
+.padding_med_left {
+  padding-left: 15px !important;
+}
+
+.padding_med_left_right {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.padding_med_top_bottom {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/*PADDING LARGE*/
+
+.padding_large_all {
+  padding: 20px !important;
+}
+
+.padding_large_top {
+  padding-top: 20px !important;
+}
+
+.padding_large_right {
+  padding-right: 20px !important;
+}
+
+.padding_large_bottom {
+  padding-bottom: 20px !important;
+}
+
+.padding_large_left {
+  padding-left: 20px !important;
+}
+
+.padding_large_left_right {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.padding_large_top_bottom {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/*NO PADDING*/
+
+.no_padding_all {
+  padding: 0 !important;
+}
+
+.no_padding_top {
+  padding-top: 0 !important;
+}
+
+.no_padding_right {
+  padding-right: 0 !important;
+}
+
+.no_padding_bottom {
+  padding-bottom: 0 !important;
+}
+
+.no_padding_left {
+  padding-left: 0 !important;
+}
+
+.no_padding_left_right {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.no_padding_top_bottom {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/*********************************MARGINS**************************************/
+
+/*MARGIN EXTRA SMALL*/
+
+.margin_extra_small_all {
+  margin: 5px !important;
+}
+
+.margin_extra_small_top {
+  margin-top: 5px !important;
+}
+
+.margin_extra_small_right {
+  margin-right: 5px !important;
+}
+
+.margin_extra_small_bottom {
+  margin-bottom: 5px !important;
+}
+
+.margin_extra_small_left {
+  margin-left: 5px !important;
+}
+
+.margin_extra_small_left_right {
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.margin_extra_small_top_bottom {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*MARGIN SMALL*/
+
+.margin_small_all {
+  margin: 10px !important;
+}
+
+.margin_small_top {
+  margin-top: 10px !important;
+}
+
+.margin_small_right {
+  margin-right: 10px !important;
+}
+
+.margin_small_bottom {
+  margin-bottom: 10px !important;
+}
+
+.margin_small_left {
+  margin-left: 10px !important;
+}
+
+.margin_small_left_right {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.margin_small_top_bottom {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*MARGIN MEDIUM*/
+
+.margin_med_all {
+  margin: 15px !important;
+}
+
+.margin_med_top {
+  margin-top: 15px !important;
+}
+
+.margin_med_right {
+  margin-right: 15px !important;
+}
+
+.margin_med_bottom {
+  margin-bottom: 15px !important;
+}
+
+.margin_med_left {
+  margin-left: 15px !important;
+}
+
+.margin_med_left_right {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.margin_med_top_bottom {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*MARGIN LARGE*/
+
+.margin_large_all {
+  margin: 20px !important;
+}
+
+.margin_large_top {
+  margin-top: 20px !important;
+}
+
+.margin_large_right {
+  margin-right: 20px !important;
+}
+
+.margin_large_bottom {
+  margin-bottom: 20px !important;
+}
+
+.margin_large_left {
+  margin-left: 20px !important;
+}
+
+.margin_large_left_right {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.margin_large_top_bottom {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*NO MARGIN*/
+
+.no_margin_all {
+  margin: 0 !important;
+}
+
+.no_margin_top {
+  margin-top: 0 !important;
+}
+
+.no_margin_right {
+  margin-right: 0 !important;
+}
+
+.no_margin_bottom {
+  margin-bottom: 0 !important;
+}
+
+.no_margin_left {
+  margin-left: 0 !important;
+}
+
+.no_margin_left_right {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.no_margin_top_bottom {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/*********************************HELPER CLASSES**************************************/
+
+/*ONLY SET IMPORTANT ON HELPER CLASSES*/
+
+.elReset {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.elScrollable {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.css_table {
+  display: table !important;
+  border-collapse: collapse !important;
+}
+
+.css_table_row {
+  display: table-row !important;
+}
+
+.css_table_cell {
+  display: table-cell !important;
+}
+
+.valign_top {
+  vertical-align: top !important;
+}
+
+.valign_middle {
+  vertical-align: middle !important;
+}
+
+.valign_bottom {
+  vertical-align: bottom !important;
+}
+
+.no_font {
+  font-size: 0;
+}
+
+.txtSmall {
+  font-size: 11px !important;
+}
+
+/*********************************LOGIN STYLES**************************************/
+
+#loginWrapper {
+  position: relative;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 30px 80px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 30px 80px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 30px 80px 0px rgba(0, 0, 0, 0.4);
+}
+
+#loginFormPanel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+}
+
+#loginFormPanel #loginLogo svg {
+  display: inline-block;
+  vertical-align: top;
+  height: 50px;
+}
+
+#loginFormPanel #loginForm {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  right: 15px;
+  margin-top: -108px;
+}
+
+#loginFormPanel #loginForm .form-group {
+  margin: 0;
+}
+
+#loginFormPanel #loginForm .form-group:first-child {
+  margin-bottom: 17px;
+}
+
+#loginFormPanel #loginForm .form-group label {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-bottom: 6px;
+  color: #7f8fa4;
+}
+
+#loginFormPanel button {
+  width: 100%;
+  vertical-align: top;
+  margin: 20px 0 15px 0;
+}
+
+#loginFormPanel #loginForm .form-group a {
+  display: inline-block;
+  vertical-align: top;
+  outline: none;
+  color: #2ea1f8;
+}
+
+#loginMarketingPanel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 300px;
+  background: url("../img/marketingBG.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: "Comfortaa", cursive;
+  color: #fff;
+}
+
+/*dark theme*/
+
+body#loginDark {
+  background: #1b2431;
+}
+
+#loginDark #loginFormPanel {
+  background: #273142;
+}
+
+#loginDark #loginFormPanel #loginLogo svg {
+  fill: #fff;
+}
+
+#loginDark #loginFormPanel #loginForm .form-group .form-control {
+  background: #222c3c;
+  border-color: #313d4f;
+  color: #fff;
+  box-shadow: none;
+}
+
+#loginDark #loginFormPanel #loginForm .form-group .form-control:hover {
+  border-color: #2ea1f8;
+}
+
+#loginDark #loginFormPanel #loginForm .form-group .form-control:focus {
+  background: #275b87;
+  border-color: #2ea1f8;
+}
+
+#loginDark #loginFormPanel #loginForm .form-group .btn-primary {
+  background: #2ea1f8;
+  border-color: #2ea1f8;
+  outline: none;
+}
+
+#loginDark #loginFormPanel #loginForm .form-group .btn-primary:hover {
+  background: #275b87;
+  border-color: #2ea1f8;
+}
+
+/*light theme*/
+
+body#loginLight {
+  background: #eff3f6;
+}
+
+#loginLight #loginFormPanel {
+  background: #eff3f6;
+}
+
+#loginLight #loginFormPanel #loginLogo svg {
+  fill: #354052;
+}
+
+#loginLight #loginFormPanel #loginForm .form-group .form-control {
+  background: #fff;
+  border-color: #cbd1db;
+  color: #354052;
+  box-shadow: none;
+}
+
+#loginLight #loginFormPanel #loginForm .form-group .form-control:hover {
+  border-color: #2ea1f8;
+}
+
+#loginLight #loginFormPanel #loginForm .form-group .form-control:focus {
+  background: #fff;
+  border-color: #2ea1f8;
+}
+
+#loginLight #loginFormPanel #loginForm .form-group .btn-primary {
+  background: #2ea1f8;
+  border-color: #2ea1f8;
+  outline: none;
+}
+
+#loginLight #loginFormPanel #loginForm .form-group .btn-primary:hover {
+  background: #0889eb;
+  border-color: #0889eb;
+}
+
+/*media queries*/
+
+@media (min-width: 1200px) {
+  /* body {
+    background: red;
+  } */
+
+  #loginWrapper {
+    width: 100%;
+    max-width: 1250px;
+    height: 630px;
+  }
+
+  #loginMarketingPanel {
+    padding: 5%;
+  }
+
+  #loginMarketingPanel h1 {
+    font-size: 60px;
+  }
+
+  #imgBottomLeft {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  #imgTopRight {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* body {
+    background: green;
+  } */
+
+  #loginWrapper {
+    width: 100%;
+    max-width: 920px;
+    height: 530px;
+  }
+
+  #loginMarketingPanel {
+    padding: 3%;
+  }
+
+  #loginMarketingPanel h1 {
+    font-size: 48px;
+  }
+
+  #imgBottomLeft {
+    position: fixed;
+    bottom: 0px;
+    left: -170px;
+  }
+
+  #imgTopRight {
+    position: fixed;
+    top: 0;
+    right: -100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* body {
+    background: blue;
+  } */
+
+  #loginWrapper {
+    width: 100%;
+    max-width: 920px;
+    height: 530px;
+  }
+
+  #loginMarketingPanel {
+    padding: 3%;
+  }
+
+  #loginMarketingPanel h1 {
+    font-size: 44px;
+  }
+
+  #imgBottomLeft,
+  #imgTopRight {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  /* body {
+    background: orange;
+  } */
+
+  #loginFormPanel {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #loginFormPanel #loginLogo {
+    text-align: center;
+  }
+
+  #loginWrapper {
+    width: 100%;
+    height: 530px;
+  }
+
+  #loginMarketingPanel,
+  #imgBottomLeft,
+  #imgTopRight {
+    display: none;
+  }
+}
