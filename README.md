@@ -5,8 +5,8 @@ Design by me using Adobe Photoshop.
 ## Tech stack
 - HTML
 - CSS
-- JavaScript
+- jQuery (CDN)
 - Bootstrap v3.3.7
 - FontAwesome (CDN)
 ## How to use it
-As this is static JavaScript there are no prerequisites required. Simply download the zip folder and open `index.html`.
+There are no prerequisites required. Simply download the zip folder and open `index.html`.
