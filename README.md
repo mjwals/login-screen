@@ -1,6 +1,8 @@
 # login-screen
-A prototype login screen for a call centre agent application called "Fire".<br><br>
-Design by me using Adobe Photoshop.
+A prototype login screen for a call centre agent application called "Fire".
+
+Designed in Adobe Photoshop and built by myself in 2019.
+
 [See the live demo here](https://www.mjwals.co.uk/loginscreen/)
 ## Tech stack
 - HTML
