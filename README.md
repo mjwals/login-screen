@@ -1,4 +1,4 @@
-# login-screen
+# Login Screen
 A prototype login screen for a call centre agent application called "Fire".
 
 Designed in Adobe Photoshop and built by myself in 2019.
