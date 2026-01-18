@@ -7,8 +7,8 @@ Designed in Adobe Photoshop and built by myself in 2019.
 ## Tech stack
 - HTML
 - CSS
-- jQuery (CDN)
+- jQuery v1.12.4
 - Bootstrap v3.3.7
-- FontAwesome (CDN)
+- FontAwesome v5.5.0
 ## How to use it
 There are no prerequisites required. Simply download the zip folder and open `index.html`.
